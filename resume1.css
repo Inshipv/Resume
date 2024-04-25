@@ -1,0 +1,103 @@
+.border{
+    border-color: black;
+    border-style: outset;
+    padding-left:10px;
+    padding-bottom: 80px;
+}
+.name{
+    
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact > div{
+ padding: 10px;
+}
+.contact > div:first-child{
+    flex: 1;
+}
+.about1{
+    padding: 10px;
+}
+.about{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/* colllege part */
+.college{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.college > div{
+ padding: 10px;
+}
+.college > div:first-child{
+    flex: 1;
+}
+
+
+/* school part */
+.school{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.school > div
+{
+ padding: 10px;
+}
+
+.school > div:first-child
+{
+    flex: 1;
+}
+
+/* skills parts */
+
+.skill{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.language > div{
+ padding: 15px;
+}
+.language > div:first-child{
+    flex: 1;
+}
+/* project parts  */
+
+.project{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.project_{
+    padding: 10px;
+}
+.subject{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subjectname{
+    padding: 10px;
+}
